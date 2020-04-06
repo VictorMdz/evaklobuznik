@@ -1,0 +1,35 @@
+body.background-no-white{
+	background-color: #F7FFF7;
+}
+.logo{
+	width: 40px;
+	height: 40px;
+}
+
+h1 {
+	text-align: center;
+	padding-bottom: 62px;
+}
+
+h3{
+	text-align: center;
+	padding-bottom: 70px;
+    
+}
+
+.block-border-bottom {
+	max-width: 25%;
+	margin:auto;
+	text-align: center;
+	border-bottom: 3px solid #292F36;
+}
+
+.nav.justify-content-center.padding {
+	padding: 40px;
+}
+
+#text-bio {
+	margin-top: 88px;
+	max-width: 880px;
+	text-align: center;
+}

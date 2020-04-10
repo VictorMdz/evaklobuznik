@@ -91,7 +91,8 @@ color: #19CBCC;
 }
 
 /*********** Containers ***********/
-.header-container-home, .header-container-ebook {
+.header-container-home, 
+.header-container-ebook {
 	margin-top: 90px;
 	padding: 90px 0;
 }
@@ -333,6 +334,11 @@ a.button-red:active {
 	.footer-container .row {
 	margin-bottom: 40px;
 	width: 100%;
+	}
+	.myths-container {
+	background-image: url(../images/background-stars.svg);
+	background-repeat: cover;
+	background-repeat: repeat;
 	}
 }
 

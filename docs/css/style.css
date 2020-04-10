@@ -1,0 +1,175 @@
+/*********** Backgrounds ***********/
+body.background-no-white,
+nav
+{
+	background-color: #F7FFF7;
+}
+
+
+/************ Fonts ***********/
+
+body p,
+body a,
+footer {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+}
+
+.header-container h1 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+}
+
+.header-container h2 {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 42px;	
+}
+
+
+
+/*********** Navbar ***********/
+.navbar.fixed-top {
+	padding: 19px 60px ;
+	border-bottom: 2px solid #292F36;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-item.nav-link{
+	padding-right: 5rem;
+}
+
+/*********** Footer ***********/
+.footer-container {
+	padding-top: 100px;
+	border-top: 2px solid #292F36;
+}
+.footer-container > .row {
+	margin-bottom: 80px;
+}
+
+footer h5 {
+	color: #919695;
+	font-weight: 300;
+	margin: 0;
+}
+
+footer img {
+	margin: 0;
+}
+
+.row.footer-copyright {
+	margin-bottom: 20px;
+}
+
+/*********** Blocks ***********/
+.header-container {
+	margin-top: 90px;
+	padding: 90px 0;
+}
+
+#header-background {
+	background-image: url(../images/header-shapes-right.svg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+
+}
+
+.header-container h1,
+.header-container h2,
+.header-container p {
+	margin-bottom: 35px;
+}
+
+.middle {
+	padding: 90px 0;
+}
+
+.middle h2{
+	margin-bottom: 64px;
+}
+.middle h3{
+	margin-bottom: 20px;
+}
+
+.middle img {
+	margin-bottom: 40px;
+}
+/*Form*/
+.container.form-container {
+	padding: 90px 0;
+}
+
+.form-container h2 {
+	margin-bottom: 60px;
+}
+
+/*********** Kit SocialMedia ***********/
+.kit {
+
+padding: 60px;
+border: 3px solid #292F36;
+}
+
+.kit.blue {
+	background-color: #19CBCC;
+}
+.kit.yellow {
+	background-color: #FFF47D;
+}
+.kit.darkblue{
+	color: #F7FFF7;
+	background-color: #292F36;
+}
+.kit.red{
+	background-color: #FF6B6B;
+}
+
+.kit h4 {
+	font-size: 20px;
+	margin: 0;
+}
+
+/*********** Buttons ***********/
+a.button-effect {
+	padding: 10px 40px;
+	border: none;
+	box-shadow: 10px 10px 0 #292F36;
+	-moz-box-shadow: 10px 10px 0 #292F36;
+	-webkit-box-shadow: 10px 10px 0 #292F36;
+	transition: 0.3s;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+a.button-blue {
+	color: #292F36;
+	background-color: #19CBCC;
+	}
+a.button-blue:hover {
+	color:#292F36;
+}
+
+a.button-red {
+	color: #292F36;
+	background-color: #FF6B6B;
+}
+a.button-red:hover {
+	color:#292F36;
+}
+
+a.button-blue:active, 
+a.button-red:active {
+	box-shadow: 0px 0px 0 #292F36;
+	-moz-box-shadow: 0px 0px 0 #292F36;
+	-webkit-box-shadow: 0px 0px 0 #292F36;
+	}
+
+/*********** Form ***********/
+.form-group .form-control {
+ 	border: 3px solid #292F36;
+    
+}

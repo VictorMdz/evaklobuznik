@@ -328,10 +328,6 @@ a.button-red:active {
 	.header-container-ebook {
 		text-align: center;
 	}
-	#tag-ebook {
-		position: relative;
-		top:-580px;
-	}
 	.eva-container {
 		text-align: center;
 	}
@@ -375,11 +371,4 @@ a.button-red:active {
 	.portada-ebook {
 		max-width: 60%;
 	}
-	}
-
-	@media (max-width: 575.98px) {
-	#tag-ebook {
-	position: relative;
-	top:-34rem;
-	}
-	}
+}

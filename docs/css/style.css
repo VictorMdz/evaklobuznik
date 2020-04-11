@@ -27,11 +27,15 @@ footer {
 .header-container-home h2, 
 .header-container-about h2,
 .myths-container h2,
-.eva-container,
+.eva-container h2,
 .form-container {
 	font-family: 'Inter', sans-serif;
 	font-weight: 400;
 	font-size: 42px;	
+}
+
+.eva-container h2 {
+	font-weight: 700;
 }
 
 .middle-container h3,
@@ -376,8 +380,9 @@ a.button-red:active {
 
 	.header-container-home h2, 
 	.header-container-about h2,
-	.myths-container h2, {
-		font-size: 28px;
+	.myths-container h2,
+	.eva-container h2 {
+		font-size: 35px;
 	}
 
 	.ebook-col {

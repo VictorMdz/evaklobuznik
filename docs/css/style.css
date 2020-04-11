@@ -315,6 +315,11 @@ a.button-red:active {
 	.header-container-ebook {
 		padding: 60px 0;
 	}
+	.middle-container {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
 	.kit {
 		border: none;
 	}

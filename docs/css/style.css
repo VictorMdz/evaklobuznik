@@ -125,7 +125,7 @@ color: #19CBCC;
 .header-container-home {
 	background-image: url(../images/header-shapes-right.svg);
 	background-repeat: no-repeat;
-	background-position: right bottom;	
+	background-position: right;	
 }
 
 .header-container-home h1,

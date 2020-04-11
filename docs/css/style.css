@@ -308,6 +308,13 @@ a.button-red:active {
 	.proyect-container {
 		margin-bottom: 80px;
 	}
+	.header-container-home {
+		background-image: none;
+	}
+	.header-container-home,
+	.header-container-ebook {
+		padding: 60px 0;
+	}
 	.kit {
 		border: none;
 	}

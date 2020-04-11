@@ -225,8 +225,7 @@ color: #19CBCC;
 
 /*********** Kit SocialMedia ***********/
 .kit {
-
-padding: 60px;
+padding: 60px 0;
 border: 3px solid #292F36;
 }
 
@@ -241,17 +240,21 @@ border: 3px solid #292F36;
 	background-color: #FFF47D;
 }
 .kit.darkblue{
-	color: #F7FFF7;
 	background-color: #292F36;
+}
+.kit.darkblue a{
+	color: #F7FFF7;
 }
 .kit.red{
 	background-color: #FF6B6B;
 }
 
-.kit h4 {
+.kit h4 a{
 	font-size: 20px;
 	margin: 0;
+	color: #292F36;
 }
+
 
 /********** Myths *************/
 
@@ -382,7 +385,7 @@ a.button-red:active {
 	}
 
 	.kit {
-		padding: 40px;
+		padding: 40px 0;
 	}
 	.kit h4 {
 		font-size: 17px;

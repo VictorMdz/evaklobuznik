@@ -59,6 +59,18 @@ footer {
 	border: none;
 }
 
+.navbar-nav a {
+	color: #292F36;
+}
+
+.navbar-nav a:hover {
+	color: grey;
+}
+
+.navbar-toggler-icon {
+	background: url(../images/toggle-navbar.svg)
+}
+
 /*********** Footer ***********/
 .footer-container {
 	padding-top: 100px;

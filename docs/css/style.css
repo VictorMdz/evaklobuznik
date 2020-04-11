@@ -45,7 +45,7 @@ footer {
 
 
 /*********** Navbar ***********/
-/*.navbar.fixed-top {
+.navbar.fixed-top {
 	padding: 19px 60px ;
 	border-bottom: 2px solid #292F36;
 
@@ -57,7 +57,19 @@ footer {
 
 .navbar-light .navbar-toggler {
 	border: none;
-}*/
+}
+
+.navbar-nav a {
+	color: #292F36;
+}
+
+.navbar-nav a:hover {
+	color: grey;
+}
+
+.navbar-toggler-icon {
+	background: url(../images/toggle-navbar.svg)
+}
 
 /*********** Footer ***********/
 .footer-container {

@@ -49,12 +49,16 @@ footer {
 }
 
 .middle-container h3,
-.myths-container h3,
 .eva-container h3 {
 	font-family: 'Merriweather', serif;
 	margin: 0;
 	font-size: 28px;
 	font-weight: 700;
+}
+
+.myths-container h3 {
+	font-family: 'Merriweather', serif;
+	font-size: 23px;
 }
 
 

@@ -85,6 +85,23 @@ footer {
 	background: url(../images/toggle-navbar.svg)
 }
 
+.crehana-tag-container {
+	position: relative;
+}
+
+.crehana-tag {
+    position: absolute;
+    top: -8px;
+    left: 38px;
+    font-size: 12px;
+    background: #4427EC;
+    color: #fff;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 3px;
+    
+}
+
 /*********** Footer ***********/
 .footer-container {
 	padding-top: 100px;
@@ -445,5 +462,11 @@ a.button-red:active {
 	}
 	.portada-ebook {
 		max-width: 60%;
+	}
+	.crehana-tag {
+    position: unset;
+    position: relative;
+    top: -2px;
+    left: 10px;
 	}
 }

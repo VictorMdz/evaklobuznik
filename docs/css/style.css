@@ -203,6 +203,7 @@ color: #19CBCC;
 	background: url(../images/background-newsletter.svg);
 	background-position: top;
 	background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
 }
 
